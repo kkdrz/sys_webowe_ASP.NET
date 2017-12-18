@@ -1,0 +1,9 @@
+C:\Users\Konrad\source\repos\kotki\kotki\bin\kotki.dll.config
+C:\Users\Konrad\source\repos\kotki\kotki\bin\kotki.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\kotki.pdb
+C:\Users\Konrad\source\repos\kotki\kotki\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.csprojResolveAssemblyReference.cache
+C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.csproj.CoreCompileInputs.cache
+C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.dll
+C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.pdb
