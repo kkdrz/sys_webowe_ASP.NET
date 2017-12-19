@@ -1,0 +1,24 @@
+1. Co oznacza pojêcie „code-behind”? Czym ró¿ni¹ siê strony test.aspx i test.aspx.cs
+
+To podejscie pozwalaj¹ce odseparowaæ od serwerowy C# do oddzielnych plików.
+Dziêki temu nie mieszamy ze sob¹ kilku jêzyków w jednym pliku (HTML, CSS, JS, C#) oraz
+debugowanie jest prostsze.
+
+2. Jak uruchomiæ aplikacjê w trybie debugowania.
+
+Mo¿na to zrobiæ z poziomu Visual Studio.
+
+3. Co oznacza okreœlenie partial class?
+4. Czego dotyczy zdarzenie postback?
+5. Jak dzia³aj¹ ró¿ne typy walidatorów?
+
+RequiredFieldValidator - sprawdza czy pole jest wype³nione
+
+CompareValidator - mo¿emy sprawdziæ na przyk³ad, czy wartosc jakiegos pola jest wieksza od innego pola
+trzeba uwa¿aæ, bo ten comparator nie sprawdza, czy jest wpisany text, czy liczba i warto uzyc RegularExpressionValidator
+
+RegularExpressionValidator - sprawdza czy input pasuje do podanego wyra¿enia regularnego
+
+RangeValidator - sprawdza czy input mieœci siê w jakimœ przedziale, mo¿e byæ liczba, data, string
+
+CustomValidator - w³asny walidator, najczesciej wykorzystywany do sprawdzenia danych w bazie danych

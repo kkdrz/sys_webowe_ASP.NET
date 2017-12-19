@@ -4,19 +4,6 @@
         document.getElementById("registrationForm").reset();
     }
 </script>
-<script runat="server">
-    protected void Page_Load(object sender, EventArgs e)
-    {
-        if (Page.IsPostBack)
-        {
-            wynik.Text = "Login: " + login.Text + "&nbsp&nbsp&nbsp&nbsp&nbsp" + "Hasło: " + password.Text + "&nbsp&nbsp&nbsp&nbsp&nbsp" + "Email: " + email.Text + "&nbsp&nbsp&nbsp&nbsp&nbsp" + "Wiek: " + wiek.Text + "&nbsp&nbsp&nbsp&nbsp&nbsp" + "Liczba kotów: " + kot.Text;
-        }
-    }
-    protected void clear_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("~/signup.aspx", true);
-    }
-</script>
 <!DOCTYPE html>
 <html lang="pl">
 	<head>
@@ -42,7 +29,7 @@
                     <asp:RequiredFieldValidator ValidationGroup="validation" class="red" runat="server" id="reqLogin" controltovalidate="login" errormessage="Proszę wypełnić to pole" /><br />
                     <asp:RegularExpressionValidator ValidationGroup="validation" class="red" runat="server" id="rexLogin" controltovalidate="login" validationexpression="[a-zA-Z0-9_-]{3,16}$" errormessage="Od 3 do 16 znaków. [a-zA-Z] [0-9] _ -" /><br />
                     <label><b>Haslo</b></label>
-					<asp:TextBox type="text" runat="server" title="Od 3 do 16 znaków. [a-zA-Z] [0-9] _ -" placeholder="Enter Password" id="password"/>
+					<asp:TextBox type="password" runat="server" title="Od 3 do 16 znaków. [a-zA-Z] [0-9] _ -" placeholder="Enter Password" id="password"/>
                     <asp:RequiredFieldValidator ValidationGroup="validation" class="red" runat="server" id="reqPassword" controltovalidate="password" errormessage="Proszę wypełnić to pole" /><br />
                     <asp:RegularExpressionValidator ValidationGroup="validation" class="red" runat="server" id="rexPassowed" controltovalidate="password" validationexpression="[a-zA-Z0-9_-]{5,18}$" errormessage="Od 5 do 18 znaków. [a-zA-Z] [0-9] _ -" /><br />
 					<label><b>Email</b></label>
