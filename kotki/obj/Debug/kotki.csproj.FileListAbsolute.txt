@@ -7,3 +7,12 @@ C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.csprojResolveAssemblyRe
 C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.csproj.CoreCompileInputs.cache
 C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.dll
 C:\Users\Konrad\source\repos\kotki\kotki\obj\Debug\kotki.pdb
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\kotki.dll.config
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\kotki.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\kotki.pdb
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.csprojResolveAssemblyReference.cache
+D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.csproj.CoreCompileInputs.cache
+D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.pdb

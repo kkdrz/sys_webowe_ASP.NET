@@ -54,6 +54,8 @@ button {
 .cancelbtn {
     padding: 14px 20px;
     background-color: #f44336;
+    border: none;
+    cursor: pointer;
 }
 
 .cancelbtn,.signupbtn {
@@ -75,4 +77,8 @@ button {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
+}
+
+.red {
+    color: red;
 }
