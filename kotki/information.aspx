@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="information.aspx.cs" Inherits="kotki.WebForm3" %>
+
+<!DOCTYPE html>
 <html lang="pl">
     <head>
         <title>Kocie info</title>
@@ -13,7 +15,7 @@
     <body class="backgroundcolor">
         <div class="style">
             <header class="center">
-                <a href="index.html"><img src="Content/Images/logo.gif" alt="LOGO"></a>
+                <a href="index.aspx"><img src="Content/Images/logo.gif" alt="LOGO"></a>
             </header>
             <section class="center">
                 <img src="Content/Images/informacje.gif" alt="Kocie info" />

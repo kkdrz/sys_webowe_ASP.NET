@@ -105,10 +105,10 @@
     <Content Include="Content\Images\statystyki-nav.jpg" />
     <Content Include="Content\Images\subskrybuj-nav.jpg" />
     <Content Include="Content\Images\tak.gif" />
-    <Content Include="index.html" />
-    <Content Include="information.html" />
     <Content Include="Web.config" />
     <Content Include="signup.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="information.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -118,6 +118,20 @@
     </Compile>
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="information.aspx.cs">
+      <DependentUpon>information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="information.aspx.designer.cs">
+      <DependentUpon>information.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

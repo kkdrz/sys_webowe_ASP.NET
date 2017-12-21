@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="kotki.WebForm2" %>
+
+<!DOCTYPE html>
 <html lang="pl">
     <head>
         <title>KOTKI</title>
@@ -13,7 +15,7 @@
     <body id="bgcenter">
         <div class="style">
             <header class="center">
-                <a href="index.html"><img src="/Content/images/logo.gif" alt="LOGO"></a>
+                <a href="index.aspx"><img src="/Content/images/logo.gif" alt="LOGO"></a>
             </header>
             <section class="center">
                 <img src="/Content/images/kociak_glowna.png" alt="Słodki kociak">
@@ -22,7 +24,7 @@
                 <a href="signup.aspx"><img src="/Content/images/rejestracja.gif" alt="Rejestracja"></a>
                 <br />
                 <br />
-                <a href="information.html"><img src="/Content/images/informacje.gif" alt="Informacje"></a>
+                <a href="information.aspx"><img src="/Content/images/informacje.gif" alt="Informacje"></a>
                 <br />
                 <h3>&rArr;To jest strona z obrazkami zawierającymi <mark>koci content.</mark>&lArr;</h3>
                 <a href="/Content/images/kociak_glowna.png" download="kociaczek_slodziaczek">Pobierz kociaka</a><br />

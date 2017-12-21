@@ -18,7 +18,7 @@
 	</head>
 	<body class="style">
 		<header class="center">
-			<a href="index.html"><img src="/Content/Images/logo.gif" alt="LOGO"></a>
+			<a href="index.aspx"><img src="/Content/Images/logo.gif" alt="LOGO"></a>
 		</header>
 		<section class="center border-img">
 			<h2><?php echo $naglowek; ?></h2>
