@@ -44,37 +44,21 @@ namespace kotki
                     {
                         CART.Add(new Product(p.Id, p.Name, p.Category, 1, p.Price));
                     }
-                    getProductById(p.Id, PRODUCTS).Quantity--;
+                    if(getProductById(p.Id, PRODUCTS).Quantity <= 1)
+                    {
+                        PRODUCTS.Remove(getProductById(p.Id, PRODUCTS));
+                    } else
+                    {
+                        getProductById(p.Id, PRODUCTS).Quantity--;
+                    }
+                    
                 }
-                lblCart.Text = "Produktów w koszyku: " + CART.Count;
                 refreshProductsInfo();
                 loadCheckbox();
             }
-            //else
-            //{
-            //    if (validateProductAndQuantity(prod_id.Text, prod_quantity.Text))
-            //    {
-            //        int product_id = Int32.Parse(prod_id.Text.Trim());
-            //        int product_quantity = Int32.Parse(prod_quantity.Text.Trim());
-            //        Product product = getProductById(product_id);
+            lblCart.Text = "Produktów w koszyku: " + CART.Count;
 
-            //        Product purchased_prod = new Product(product.Id, product.Name,product.Category, product_quantity, product.Price);
-            //        CART.Add(purchased_prod);
-            //        if (PRODUCTS.Contains(product))
-            //        {
-            //            product.Quantity -= product_quantity;
-
-            //            if (product.Quantity <= 0)
-            //            {
-            //                PRODUCTS.Remove(product);
-            //            }
-
-            //        }
-
-            //        loadProducts();
-            //    }
-            //}
-
+            
         }
 
         private void refreshProductsInfo()
@@ -85,51 +69,8 @@ namespace kotki
             }
         }
 
-        //private bool validateProductAndQuantity(string gid, string gquantity)
-        //{
-        //    string s_id = gid.Trim();
-        //    string s_quantity = gquantity.Trim();
-
-        //    if (s_id.Length == 0 || s_quantity.Length == 0)
-        //    {
-        //        return false;
-        //    }
-        //    int id;
-        //    int quantity;
-        //    try
-        //    {
-        //        id = Int32.Parse(s_id);
-        //        quantity = Int32.Parse(s_quantity);
-        //    }
-        //    catch (FormatException ex)
-        //    {
-        //        return false;
-        //    }
-
-        //    Product product = getProductById(id);
-        //    if (product == null || product.Quantity < quantity)
-        //    {
-        //        return false;
-        //    }
-
-        //    return true;
-        //}
-
-        //protected void ValidateIdAndQuantity(object source, ServerValidateEventArgs args)
-        //{
-        //    if (!validateProductAndQuantity(prod_id.Text, prod_quantity.Text))
-        //    {
-        //        args.IsValid = false;
-        //        return;
-        //    }
-
-        //    args.IsValid = true;
-        //}
-
-
         protected void OnRadio_Changed(object sender, EventArgs e)
         {
-            //loadProducts();
             loadCheckbox();
         }
 
@@ -143,19 +84,7 @@ namespace kotki
             cblProducts.DataBind();
         }
 
-        //private void loadProducts()
-        //{
-        //    List<Product> products = filterProductsByCategory(PRODUCTS, rblCategories.SelectedItem.Value);
-
-        //    addLabelsToTable(productsTable);
-
-        //    for (int i = 0; i < products.Count; i++)
-        //    {
-        //        addRow(productsTable, products[i].Id, products[i].Name, products[i].Quantity, products[i].Price);
-        //    }
-        //}
-
-        private Product getProductById(int id, List<Product> PRODUCTS)
+        public static Product getProductById(int id, List<Product> PRODUCTS)
         {
             foreach (Product p in PRODUCTS)
             {
@@ -197,25 +126,6 @@ namespace kotki
 
             table.Rows.Add(row);
         }
-        //private void addRow(Table g_table, int g_id, string g_name, int g_quantity, int g_price)
-        //{
-        //    TableRow row = new TableRow();
-
-        //    TableCell id = new TableCell();
-        //    id.Text = g_id.ToString();
-        //    TableCell name = new TableCell();
-        //    name.Text = g_name;
-        //    TableCell quantity = new TableCell();
-        //    quantity.Text = g_quantity.ToString();
-        //    TableCell price = new TableCell();
-        //    quantity.Text = g_price.ToString();
-
-        //    row.Cells.Add(id);
-        //    row.Cells.Add(name);
-        //    row.Cells.Add(quantity);
-        //    row.Cells.Add(price);
-
-        //    productsTable.Rows.Add(row);
-        //}
+        
     }
 }

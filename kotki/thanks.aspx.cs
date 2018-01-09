@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace kotki
+{
+    public partial class thanks : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            totalCost.Text = "Całkowity koszt: " + cart.total_cost + "zł.";
+            cart.total_cost = 0;
+        }
+    }
+}

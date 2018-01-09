@@ -13,6 +13,7 @@ namespace kotki.Model
         public int Quantity { get; set; }
         public int Price { get; set; }
         public string Info { get; set; }
+        public string CartInfo { get; set; }
 
         public Product (int id, string name, Category category, int quantity, int price)
         {
@@ -21,7 +22,7 @@ namespace kotki.Model
             this.Category = category;
             this.Quantity = quantity;
             this.Price = price;
-            this.Info = name + " | " + Price + "zł | Dostępność: " + quantity;
+            refreshInfo();
         }
 
         public override bool Equals(Object obj)
@@ -40,7 +41,8 @@ namespace kotki.Model
 
         internal void refreshInfo()
         {
-            this.Info = this.Name + " | " + this.Price + "zł | Dostępność: " + this.Quantity;
+            this.Info = this.Name + " | " + this.Price + "zł/sztuka | Dostępność: " + this.Quantity;
+            this.CartInfo = this.Name + " | " + this.Price + "zł/sztuka | Ilość: " + this.Quantity;
         }
     }
 }

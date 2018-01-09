@@ -26,6 +26,9 @@
                 <br />
                 <a href="information.aspx"><img src="/Content/images/informacje.gif" alt="Informacje"></a>
                 <br />
+                <br />
+                <a href="shop.aspx"><label>NASZ SUPER KOCI SKLEP</label></a>
+                <br />
                 <h3>&rArr;To jest strona z obrazkami zawierającymi <mark>koci content.</mark>&lArr;</h3>
                 <a href="/Content/images/kociak_glowna.png" download="kociaczek_slodziaczek">Pobierz kociaka</a><br />
                 <a href="http://i0.kym-cdn.com/entries/icons/mobile/000/013/564/doge.jpg" download="piesel">Pobierz psiaka ze strony zewnętrznej</a><br />

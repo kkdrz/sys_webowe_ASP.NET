@@ -30,7 +30,9 @@
                     <img src="/Content/Images/logo.gif" alt="LOGO"></a>
             </div>
             <div class="col-md-4">
-                <asp:Label id="lblCart" Text="Produktów w koszyku: 0" runat="server" />
+                <a href="cart.aspx">
+                    <asp:Label ID="lblCart" Text="Produktów w koszyku: 0" runat="server" />
+                </a>
             </div>
         </div>
     </header>
