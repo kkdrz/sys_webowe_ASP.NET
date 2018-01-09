@@ -16,3 +16,24 @@ D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.csprojResolveAssemblyReference.c
 D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.csproj.CoreCompileInputs.cache
 D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.dll
 D:\Studia\PSW (L)\ASP.NET\kotki\obj\Debug\kotki.pdb
+C:\Users\Konrad\source\repos\kotki\kotki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\Newtonsoft.Json.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Net.Http.Formatting.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Helpers.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Http.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Http.WebHost.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Mvc.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Razor.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.Razor.dll
+C:\Users\Konrad\source\repos\kotki\kotki\bin\Newtonsoft.Json.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Net.Http.Formatting.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Helpers.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Http.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Http.WebHost.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Mvc.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Razor.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.Razor.xml
