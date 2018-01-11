@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.Master.cs" Inherits="kotki.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="/Content/CSS/masterpage.css">
+    <link rel="stylesheet" href="/Content/CSS/bootstrap.min.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+            <header class="mastercomponent">
+                <a href="index.aspx"><img src="/Content/images/logo.gif" alt="LOGO"></a>
+                <h1>Witaj na najlepszej stronie o kotkach!!!</h1>
+            </header>
+            <div id="menu" class="mastercomponent">
+                     <ul>
+                        <li><a href="index.aspx">Start</a></li>
+                        <li><a href="signup.aspx">Rejestracja</a></li>
+                        <li><a href="information.aspx">Informacje</a></li>
+                        <li><a href="shop.aspx">Sklep</a></li>
+                    </ul> 
+                </div>
+                <asp:ContentPlaceHolder ID="body" runat="server">
+                </asp:ContentPlaceHolder>
+            <footer class="mastercomponent">
+                <h4>Made by Drozd and Legut</h4>
+            </footer>
+</body>
+</html>

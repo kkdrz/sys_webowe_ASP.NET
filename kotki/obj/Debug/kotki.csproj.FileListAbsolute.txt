@@ -37,3 +37,24 @@ C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.Razor.xml
 C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.xml
 C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Konrad\source\repos\kotki\kotki\bin\System.Web.WebPages.Razor.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\Microsoft.Web.Infrastructure.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\Newtonsoft.Json.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Net.Http.Formatting.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Helpers.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Http.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Http.WebHost.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Mvc.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Razor.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.WebPages.Deployment.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.WebPages.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.WebPages.Razor.dll
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\Newtonsoft.Json.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Net.Http.Formatting.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Helpers.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Http.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Http.WebHost.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Mvc.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.Razor.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.WebPages.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.WebPages.Deployment.xml
+D:\Studia\PSW (L)\ASP.NET\kotki\bin\System.Web.WebPages.Razor.xml

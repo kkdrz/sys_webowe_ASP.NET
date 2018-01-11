@@ -1,8 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="kotki.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="kotki.WebForm2" MasterPageFile="masterpage.Master" %>
 
-<!DOCTYPE html>
-<html lang="pl">
-    <head>
+<asp:Content ID="headindex" ContentPlaceHolderID="head" Runat="Server">
         <title>KOTKI</title>
         <meta charset="UTF-8">
         <meta name="keywords" content="kot, koty, koty, kotki, obrazki, smieszne" />
@@ -11,12 +9,9 @@
         <link rel="stylesheet" href="/Content/CSS/styles.css">
         <link rel="stylesheet" href="/Content/CSS/random-styles.css">
         <link rel="stylesheet" href="/Content/CSS/registerstyles.css">
-    </head>
-    <body id="bgcenter">
-        <div class="style">
-            <header class="center">
-                <a href="index.aspx"><img src="/Content/images/logo.gif" alt="LOGO"></a>
-            </header>
+</asp:Content>
+<asp:Content ID="bodyindex" ContentPlaceHolderID="body" Runat="Server">
+        <div class="style" id="bgcenter">
             <section class="center">
                 <img src="/Content/images/kociak_glowna.png" alt="Słodki kociak">
                 <br />
@@ -37,9 +32,5 @@
                 <br />
                 <img src="/Content/images/glitter.gif" alt="Najprzeslodziasniejsze kociaki w sieci">
             </section>
-            <footer class="center">
-                <h4>Made by Drozd and Legut</h4>
-            </footer>
         </div>
-    </body>
-</html>
+</asp:Content>

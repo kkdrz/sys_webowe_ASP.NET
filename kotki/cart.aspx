@@ -1,8 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cart.aspx.cs" Inherits="kotki.cart" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cart.aspx.cs" Inherits="kotki.cart" MasterPageFile="masterpage.Master" %>
 
-<!DOCTYPE html>
-<html lang="pl">
-<head>
+<asp:Content ID="headcart" ContentPlaceHolderID="head" Runat="Server">
     <title>Koszyk</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="kot, koty, koty, kotki, obrazki, smieszne" />
@@ -20,9 +18,8 @@
             display: none;
         }
     </style>
-
-</head>
-<body>
+</asp:Content>
+<asp:Content ID="bodycart" ContentPlaceHolderID="body" Runat="Server">
     <header class="container">
         <div class="row">
             <div class="col-md-4">
@@ -88,5 +85,4 @@
             args.IsValid = isValid;
         }
     </script>
-</body>
-</html>
+</asp:Content>

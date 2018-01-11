@@ -1,8 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="shop.aspx.cs" Inherits="kotki.shop" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="shop.aspx.cs" Inherits="kotki.shop" MasterPageFile="masterpage.Master" %>
 
-<!DOCTYPE html>
-<html lang="pl">
-<head>
+<asp:Content ID="headshop" ContentPlaceHolderID="head" Runat="Server">
     <title>Rejestracja/Zmiana danych</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="kot, koty, koty, kotki, obrazki, smieszne" />
@@ -21,8 +19,8 @@
         }
     </style>
 
-</head>
-<body>
+</asp:Content>
+<asp:Content ID="bodyshop" ContentPlaceHolderID="body" Runat="Server">
     <header class="container">
         <div class="row">
             <div class="col-md-4 col-centered">
@@ -71,5 +69,4 @@
             args.IsValid = isValid;
         }
     </script>
-</body>
-</html>
+</asp:Content>

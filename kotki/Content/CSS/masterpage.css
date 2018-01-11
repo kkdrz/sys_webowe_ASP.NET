@@ -1,0 +1,55 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.mastercomponent {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+    .mastercomponent > h1 {
+        margin: 0;
+        padding: 20px;
+        overflow: hidden;
+        background-color: #6605c4;
+        color: white;
+        font-weight: bold;
+        font-family: 'Comic Sans MS';
+    }
+
+    .mastercomponent > h4 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Comic Sans MS';
+    }
+
+#menu {
+    margin-bottom: 10px;
+}
+
+#menu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d66b97;
+}
+
+#menu li {
+    float: left;
+}
+
+    #menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        #menu li a:hover {
+            background-color: #7b00e8;
+        }

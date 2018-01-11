@@ -1,8 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="thanks.aspx.cs" Inherits="kotki.thanks" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="thanks.aspx.cs" Inherits="kotki.thanks" MasterPageFile="masterpage.Master" %>
 
-<!DOCTYPE html>
-<html lang="pl">
-<head>
+<asp:Content ID="headty" ContentPlaceHolderID="head" Runat="Server">
     <title>Dziękujemy!</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="kot, koty, koty, kotki, obrazki, smieszne" />
@@ -20,9 +18,8 @@
             display: none;
         }
     </style>
-
-</head>
-<body>
+</asp:Content>
+<asp:Content ID="bodyty" ContentPlaceHolderID="body" Runat="Server">
     <header class="container">
         <div class="row">
             <div class="col-md-4">
@@ -56,5 +53,4 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+</asp:Content>

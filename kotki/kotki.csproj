@@ -104,9 +104,11 @@
     <None Include="packages.config" />
     <Content Include="cart.aspx" />
     <Content Include="Content\CSS\bootstrap.min.css" />
+    <Content Include="Content\CSS\masterpage.css" />
     <Content Include="Content\Images\kicia_adorable.jpg" />
     <Content Include="Content\JS\bootstrap.min.js" />
     <Content Include="shop.aspx" />
+    <Content Include="masterpage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -190,6 +192,13 @@
     </Compile>
     <Compile Include="information.aspx.designer.cs">
       <DependentUpon>information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
     </Compile>
     <Compile Include="thanks.aspx.cs">
       <DependentUpon>thanks.aspx</DependentUpon>

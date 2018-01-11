@@ -1,12 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signup.aspx.cs" Inherits="kotki.WebForm1" %>
-<script type="text/javascript">
-    function resetForm() {
-        document.getElementById("registrationForm").reset();
-    }
-</script>
-<!DOCTYPE html>
-<html lang="pl">
-	<head>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="signup.aspx.cs" Inherits="kotki.WebForm1" MasterPageFile="masterpage.Master" %>
+
+<asp:Content ID="headsignup" ContentPlaceHolderID="head" Runat="Server">
 		<title>Rejestracja/Zmiana danych</title>
 		<meta charset= "UTF-8" >
 		<meta name="keywords" content="kot, koty, koty, kotki, obrazki, smieszne"/>
@@ -15,11 +9,14 @@
 		<link rel="stylesheet" href="/Content/CSS/styles.css">
 		<link rel="stylesheet" href="/Content/CSS/random-styles.css">
 		<link rel="stylesheet" href="/Content/CSS/registerstyles.css">
-	</head>
-	<body class="style">
-		<header class="center">
-			<a href="index.aspx"><img src="/Content/Images/logo.gif" alt="LOGO"></a>
-		</header>
+</asp:Content>
+<asp:Content ID="bodysignup" ContentPlaceHolderID="body" Runat="Server">
+    <script type="text/javascript">
+        function resetForm() {
+            document.getElementById("registrationForm").reset();
+        }
+</script>
+	<div class="style">
 		<section class="center border-img">
 			<h2><?php echo $naglowek; ?></h2>
 			<form id="registrationForm"  runat="server" method='POST' style="border:1px solid #ccc">
@@ -52,8 +49,5 @@
 				</div>
 			</form>
 		</section>
-		<footer class="center">
-			<h4>Made by Drozd and Legut</h4>
-		</footer>
-</body>
-</html>
+</div>
+</asp:Content>

@@ -10,33 +10,24 @@
 namespace kotki {
     
     
-    public partial class thanks {
+    public partial class Site1 {
         
         /// <summary>
-        /// Kontrolka lblCart.
+        /// Kontrolka head.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblCart;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
-        /// Kontrolka cartForm.
+        /// Kontrolka body.
         /// </summary>
         /// <remarks>
         /// Pole generowane automatycznie.
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm cartForm;
-        
-        /// <summary>
-        /// Kontrolka totalCost.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label totalCost;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder body;
     }
 }
