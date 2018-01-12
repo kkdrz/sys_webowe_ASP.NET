@@ -22,6 +22,7 @@
                         <li><a href="signup.aspx">Rejestracja</a></li>
                         <li><a href="information.aspx">Informacje</a></li>
                         <li><a href="shop.aspx">Sklep</a></li>
+                        <li><a href="products.aspx">Produkty</a></li>
                     </ul> 
                 </div>
                 <asp:ContentPlaceHolder ID="body" runat="server">

@@ -1,0 +1,46 @@
+﻿form {
+    font-family: 'Comic Sans MS';
+    font-size: 200%;
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+    font-size: 200%;
+    font-weight: bold;
+    background-color:hotpink;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 120%;
+    color: maroon;
+    text-align: center;
+    text-decoration: underline
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 110%;
+    color: maroon;
+}
+
+#cont {
+    border-style: dotted;
+    border-color: green;
+    border-bottom-color: cornflowerblue;
+    border-width: 10px;
+    background-color: beige;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+#date {
+    margin-top: 20px;
+    font-size: 60%;
+    font-family: Arial;
+}

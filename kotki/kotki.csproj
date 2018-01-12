@@ -33,6 +33,17 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="ConnectionString — wdrażanie" Order="1">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=%28LocalDB%29\MSSQLLocalDB%3bAttachDbFilename=|DataDirectory|\Kotki.mdf%3bIntegrated Security=True" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\ConnectionString — wdrażanie_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -59,6 +70,7 @@
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -101,7 +113,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\CSS\products.css" />
+    <Content Include="products.aspx" />
     <None Include="packages.config" />
+    <Content Include="App_Data\Kotki.mdf" />
+    <Content Include="App_Data\Kotki_log.ldf">
+      <DependentUpon>Kotki.mdf</DependentUpon>
+    </Content>
     <Content Include="cart.aspx" />
     <Content Include="Content\CSS\bootstrap.min.css" />
     <Content Include="Content\CSS\masterpage.css" />
@@ -109,6 +127,8 @@
     <Content Include="Content\JS\bootstrap.min.js" />
     <Content Include="shop.aspx" />
     <Content Include="masterpage.Master" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\CustomProfile1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -148,7 +168,9 @@
     <Content Include="Content\Images\subskrybuj-nav.jpg" />
     <Content Include="Content\Images\tak.gif" />
     <Content Include="thanks.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="signup.aspx" />
     <Content Include="index.aspx" />
     <Content Include="information.aspx" />
@@ -206,6 +228,13 @@
     </Compile>
     <Compile Include="thanks.aspx.designer.cs">
       <DependentUpon>thanks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="products.aspx.cs">
+      <DependentUpon>products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="products.aspx.designer.cs">
+      <DependentUpon>products.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
